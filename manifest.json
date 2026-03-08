@@ -4,6 +4,11 @@
   "version": "1.0",
   "description": "Gives the typing game Typeracer a cleaner, higher contrast look to improve concentration during the races.",
   "permissions": ["scripting"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "clean-typeracer@victorneutzling"
+    }
+  }
   "content_scripts": [
     {
       "matches": ["*://*.typeracer.com/*"],
