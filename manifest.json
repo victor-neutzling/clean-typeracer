@@ -8,8 +8,7 @@
     "gecko": {
       "id": "clean-typeracer@victorneutzling",
       "data_collection_permissions": {
-        "required": [],
-        "optional": []
+        "required": ["none"]
       }
     }
   },
