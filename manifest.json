@@ -6,7 +6,11 @@
   "permissions": ["scripting"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "clean-typeracer@victorneutzling"
+      "id": "clean-typeracer@victorneutzling",
+      "data_collection_permissions": {
+        "required": [],
+        "optional": []
+      }
     }
   },
   "content_scripts": [
